@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
 
                 double latitude = 33.892166;
                 double longitude = 9.561555;
-                String label = "Location Label"; // Replace with your desired label
+                String label = "Location Label"; // Replace with a desired label
 
                 Uri gmmIntentUri = Uri.parse("geo:" + latitude + "," + longitude + "?q=" + latitude + "," + longitude + "(" + label + ")");
                 intent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
