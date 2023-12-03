@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">spinner</string>
+    <string-array name="intent_choices">
+        <item>Ouvrir le navigateur</item>
+        <item>Composer un numéro de téléphone</item>
+        <item>Afficher la carte</item>
+        <item>Prendre une photo</item>
+        <item>Afficher les contacts</item>
+        <item>Éditer le premier contact</item>
+    </string-array>
+
+</resources>
